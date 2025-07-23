@@ -1,86 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>･༓☾ zeтronιх ᴄнᴀɴɴᴇʟᶻᵗˣ ☽༓･ 😴</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aliança ZTX 😴</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #0d0d0d;
-      color: #fff;
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0e0e0e;
+      color: #f0f0f0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       padding: 20px;
     }
 
-    header {
+    .container {
+      background-color: #1c1c1c;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(157, 0, 255, 0.3);
       text-align: center;
-      padding: 40px 20px;
-      background: linear-gradient(135deg, #220022, #000000);
-      box-shadow: 0 0 15px #9d00ff88;
+      max-width: 400px;
+      width: 100%;
     }
 
-    h1 {
-      font-size: 2em;
+    .container h1 {
+      font-size: 30px;
       color: #9d00ff;
-      text-shadow: 0 0 5px #9d00ff88;
+      margin-bottom: 10px;
+      word-break: break-word;
     }
 
-    p, li, a {
-      font-size: 1em;
-      color: #ddd;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    li {
-      margin: 10px 0;
+    .container p {
+      font-size: 14px;
+      color: #aaa;
+      margin-bottom: 25px;
     }
 
     .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
+      display: block;
+      width: 100%;
       background: linear-gradient(135deg, #9d00ff, #5900ff);
-      color: #fff;
-      border-radius: 8px;
+      color: white;
+      padding: 12px;
+      margin: 10px 0;
       text-decoration: none;
+      border-radius: 12px;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
     }
 
     footer {
-      text-align: center;
-      margin-top: 50px;
-      color: #aaa;
-      font-size: 14px;
+      margin-top: 30px;
+      font-size: 12px;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <header>
+
+  <div class="container">
     <h1>･༓☾ zeтronιх ᴄнᴀɴɴᴇʟᶻᵗˣ ☽༓･ 😴</h1>
-    <p>Entre para a lendária Aliança ZTX — criada por <strong>JohnnyXZZ</strong></p>
-    <a class="btn" href="https://chat.whatsapp.com/EXbsReOxO8wAN0ChONfSCR?mode=ac_t">Fazer parte da Aliança ZTX</a>
-  </header>
+    <p>Criada por <strong>𝑧̴𝑖̴𝑘̴𝑎̴𝑜̴𝑝̴𝑝̴ᶻᵗˣ</strong> para reunir os leais da ZTX desde 2005.<br>Venha fazer parte da nossa história.</p>
 
-  <main>
-    <h2>Páginas da Aliança</h2>
-    <ul>
-      <li><a href="sobre.html">Sobre a Aliança</a></li>
-      <li><a href="origem.html">Saiba como surgiu a Aliança ZTX</a></li>
-      <li><a href="criador.html">Conheça o criador da ZTX</a></li>
-      <li><a href="bonus.html">Bônus Secreto</a></li>
-    </ul>
-  </main>
+    <a class="btn" href="https://chat.whatsapp.com/EXbsReOxO8wAN0ChONfSCR?mode=ac_t" target="_blank">Entrar no Chat</a>
+    <a class="btn" href="https://whatsapp.com/channel/0029Vb6QwZeGOj9fPZKSLe1O" target="_blank">Canal Oficial</a>
+    <a class="btn" href="#" onclick="entrarBonus()">🎁 Bônus Secreto</a>
 
-  <footer>
-    <p>Feito por 𝑧̴𝑖̴𝑘̴𝑎̴𝑜̴𝑝̴𝑝̴ᶻᵗˣ • ZTX 😴</p>
-  </footer>
+    <footer>#anti-Blasfemia | ZTX Legacy</footer>
+  </div>
+
+  <script>
+    function entrarBonus() {
+      const senha = prompt("Digite a senha para acessar o bônus:");
+      if (senha === "ztx9070") {
+        window.location.href = "https://www.mediafire.com/file/fnw9px29ftg92hg/B%25C3%2594NUS_SUPREMO_%25E2%259A%25A0%25EF%25B8%258F%25F0%259F%2591%2591.zip/file";
+      } else if (senha) {
+        alert("Senha incorreta! Tente novamente.");
+      }
+    }
+  </script>
+
 </body>
 </html>
