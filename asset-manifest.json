@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/alianca-ztx/static/css/main.268e3055.css",
+    "main.js": "/alianca-ztx/static/js/main.110d9bf1.js",
+    "index.html": "/alianca-ztx/index.html",
+    "main.268e3055.css.map": "/alianca-ztx/static/css/main.268e3055.css.map",
+    "main.110d9bf1.js.map": "/alianca-ztx/static/js/main.110d9bf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.268e3055.css",
+    "static/js/main.110d9bf1.js"
+  ]
+}
